@@ -65,7 +65,7 @@ const Services = () => {
       id: 2,
       title: 'Design & Planning',
       description: 'Our designers create sketches and 3D models based on your input. We select materials, finalize dimensions, and establish a timeline and budget.',
-      image: 'https://images.pexels.com/photos/5799794/pexels-photo-5799794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750'
+      image: 'https://plus.unsplash.com/premium_photo-1726840832490-c5e188a900f4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
     {
       id: 3,
@@ -205,7 +205,6 @@ const Services = () => {
                 >
                   <div className="w-full md:w-1/2">
                     <div className="relative">
-                      <div className="absolute -inset-4 md:-inset-8 border-2 border-walnut transform translate-x-4 translate-y-4 md:translate-x-8 md:translate-y-8 z-0"></div>
                       <img 
                         src={step.image} 
                         alt={step.title} 
